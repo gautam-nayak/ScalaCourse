@@ -17,6 +17,7 @@ object App extends App {
     sum
   }
 
+  //To be done later
   def calcSum1(f: Int => Int)(a: Int, b: Int) = {
     f(a) + f(b)
   }
